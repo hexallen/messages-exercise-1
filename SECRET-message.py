@@ -49,3 +49,5 @@ def print_secret_message(doc_url: str) -> None:
         for x in range(max_x + 1):
             row.append(char_map[(x, y)])
         print(''.join(row))
+
+print_secret_message("https://docs.google.com/document/u/0/d/e/2PACX-1vTMOmshQe8YvaRXi6gEPKKlsC6UpFJSMAk4mQjLm_u1gmHdVVTaeh7nBNFBRlui0sTZ-snGwZM4DBCT/pub?pli=1")
